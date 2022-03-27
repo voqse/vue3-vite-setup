@@ -5,8 +5,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --port 5050",
-    "lint:js": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "lint:scss": "stylelint **/*.{css,scss,sass,vue} --fix --ignore-path .gitignore"
+    "lint": "npm run lint:js && npm run lint:scss",
+    "lint:js": "eslint '**/*.{js,jsx,cjs,mjs,vue}' --fix --ignore-path .gitignore",
+    "lint:scss": "stylelint '**/*.{css,scss,vue}' --fix --ignore-path .gitignore"
   },
   "dependencies": {
     "vue": "^3.2.31",
