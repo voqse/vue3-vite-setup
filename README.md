@@ -1,14 +1,6 @@
-# repeat-frontend-vite
+# Vite Setup: Vue 3 + ESLint (Airbnb) + Stylelint
 
 This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
@@ -28,8 +20,21 @@ npm run dev
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint
 
 ```sh
 npm run lint
+```
+
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint:js
+```
+
+### Lint with [Stylelint]
+
+```sh
+npm run lint:scss
 ```
