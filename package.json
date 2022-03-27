@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.2",
+    "@vue/eslint-config-airbnb": "^6.0.0",
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^8.2.0",
     "vite": "^2.8.4"
